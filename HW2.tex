@@ -1,0 +1,35 @@
+\documentclass[11pt]{article}
+\usepackage{./EllioStyle}
+\usepackage{listings}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\title{Homework 2}
+\author{Elliott Pryor}
+\date{23 September 2021}
+
+\rhead{Homework 2}
+
+\begin{document}
+\maketitle
+
+\problem{1}
+
+
+\problem{2}
+Derive a one-dimensional minimization algorithm based on quadratic fit that only requires objective function
+values (but no derivatives). Specifically, derive an algorithm that computes $x_{k+1}$
+based on $x_k,x_{k-1},x_{k-2}$, and $f(x_k),f(x_{k-1}),f(x_{k-2})$. 
+Hint: To simplify notation, used
+$\delta_{i,j} = x_{k-i} - x_{k-j}$ and $\sigma_{i,j} = (x_{k-i})^2 - (x_{k-j})^2$
+
+Bonus: implement your algorithm as a MATLAB script and apply it to the numerical problems, above. 
+Note that you will needthree points to initialize the algorithm.
+
+\hrule
+
+
+\end{document}
